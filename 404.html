@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Página não encontrada — Andreas Zavitsanos Advocacia</title>
+  <meta name="robots" content="noindex" />
+  <link rel="icon" href="favicon.ico" sizes="48x48" />
+  <link rel="stylesheet" href="assets/css/estilo.css" />
+  <style>
+    .pagina-404 {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      gap: 18px;
+      padding: 24px;
+      background:
+        linear-gradient(rgba(16, 20, 26, .93), rgba(16, 20, 26, .93)),
+        url('assets/img/fundo-banner.jpg') center / cover no-repeat,
+        var(--ink);
+      color: #fff;
+    }
+    .pagina-404 img { height: 84px; margin-bottom: 8px; }
+    .pagina-404 .codigo {
+      font-size: .78rem; font-weight: 650; letter-spacing: .2em;
+      text-transform: uppercase; color: var(--blue);
+    }
+    .pagina-404 h1 {
+      font-size: clamp(1.8rem, 4vw, 2.6rem);
+      font-weight: 750; letter-spacing: -.025em; line-height: 1.15;
+    }
+    .pagina-404 p { color: var(--gelo); opacity: .8; max-width: 46ch; }
+  </style>
+</head>
+<body>
+  <main class="pagina-404">
+    <img src="assets/img/logo.png" alt="Andreas Zavitsanos Advocacia" />
+    <span class="codigo">Erro 404</span>
+    <h1>Esta página não existe.</h1>
+    <p>O endereço pode ter mudado ou sido digitado incorretamente. Volte para a página inicial e encontre o que procura.</p>
+    <a class="btn btn-azul" href="/" style="margin-top:10px;">Voltar ao início</a>
+  </main>
+</body>
+</html>
